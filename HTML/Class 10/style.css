@@ -1,0 +1,42 @@
+/* h1{
+    color: lightblue;
+} */
+
+
+/* h1{
+    color: blueviolet;
+} */
+
+
+/* *{
+    color:red;
+} */
+
+/* h1{
+    color: beige;s
+}
+
+.para{
+    color: red;
+}
+
+#para{
+    color:coral;
+} */
+/* 
+h1 , h2 , p{
+    color: blue;
+} */
+
+/* div p{
+    color: red;
+} */
+
+/* div > p{
+    color: red;
+} */
+
+
+input[type="text"]{
+    color: red;
+}

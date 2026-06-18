@@ -1,0 +1,156 @@
+/* h1{
+    color: red;
+    transition: background-color 2s ease-in;
+}
+
+h1:hover{
+    background-color: blue;
+} */
+
+/* h1{ */
+    /* transform: translate(50px , 40px); */
+    /* transform: translateX(-80px); */
+    /* transform: scale(.85 , .2); */
+    /* transform: rotate(90deg); */
+    /* animation-name: SlideIn;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; */
+    /* animation: SlideIn 2s ease forwards infinite; */
+    /* animation: fade 4s linear 0s infinite normal none */
+/* } */
+
+/* @keyframes SlideIn{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} */
+
+/* .card{
+
+
+
+
+    opacity: 0.8;
+    transform: translateY(10px);
+    transition: opactiy 0.4s ease, transform 0.4s ease;
+}
+
+.card:hover{
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* background-color: rgb(223, 216, 216); */
+    border-radius: 15px;
+}
+/* .card:hover{
+    animation: glowPulse 2s  infinite ease-in-out;
+} */
+
+
+/* .card:hover{
+    animation: popBounce 0.6s forwards ease-in-out ;
+} */
+
+@keyframes glowPulse{
+    0% , 100%{
+        box-shadow: 0 0 5px #0ff;
+    }
+    50%{
+        box-shadow: 0 0 20px #0ff;
+    }
+}
+
+@keyframes popBounce{
+    0%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    70%{
+        transform: scale(0.95);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* .card{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 0 10px 30px rgba(41, 51, 51, 0.6);
+    transform: scale(1.08);
+} */
+
+/* .card:hover{
+    animation: rotateGlow 1s infinite ease;
+}
+
+@keyframes rotateGlow{
+    0%{
+        transform: rotate(0deg);
+        opacity: 0.8;
+        box-shadow: 0 0 0px #0ff;
+    }
+    50%{
+         transform: rotate(10deg);
+        opacity:1;
+        box-shadow: 0 0 20px #0ff;
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity: 0.8;
+        box-shadow: 0 0 0px #0ff;
+    }
+} */
+
+
+
+.card{
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.card:hover{
+    transform: rotateY(8deg) rotateX(5deg);
+    box-shadow: 0 0 20px #0ff;
+    background: linear-gradient(120deg,#111 , #333 , #111);
+    background-size: 200% 200%;
+    animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}

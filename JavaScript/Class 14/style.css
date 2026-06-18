@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+
+.para{
+    background-color: lightblue;
+}
+
+.bigText{
+    font-size: 2rem;
+}

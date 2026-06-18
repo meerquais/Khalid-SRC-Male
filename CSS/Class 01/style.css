@@ -1,0 +1,43 @@
+/* h1{
+    color:red
+} */
+
+h1{
+    /* color: blue; */
+    /* color: #1242af; */
+    color: rgb(145, 33, 22);
+    background-color: red;
+}
+
+/* h2{ */
+    /* background-color: green; */
+    /* background-color: rgba(255, 123, 30, 0.4); */
+    /* opacity: 0.4; */
+/* } */
+
+h2{
+    font-family:  sans-serif;
+    font-size: 28px;
+}
+p{
+    font-size: 38px;
+    /* line-height: 100px; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 50px; */
+}
+.textBold{
+    font-weight: bold;
+    font-style: italic;
+    text-transform: lowercase;
+    /* text-decoration: dashed; */
+    text-decoration: solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.para{
+    text-align: center;
+    text-shadow: -10px -10px 5px red;
+}

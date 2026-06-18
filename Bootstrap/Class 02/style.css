@@ -1,0 +1,19 @@
+.bg-color{
+    background-color: #AB2328;
+}
+.button{
+    background-color: #AB2328;
+}
+.button:hover{
+    background-color: #ba3539;
+}
+.customInput{
+    border: none;
+    /* border-bottom: 1px solid black; */
+}
+.customInput:focus{
+    outline: none;
+}
+.customeColor{
+    color: #AB2328;
+}
