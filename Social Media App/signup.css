@@ -1,0 +1,105 @@
+/* Reset and global setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f6f8;
+    color: #333333;
+    padding: 20px;
+}
+
+/* Card container */
+.signup-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.signup-container h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #1a1a1a;
+}
+
+/* Form layout */
+#signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Form inputs */
+#signupForm input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    border: 1.5px solid #e1e4e8;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f9fafb;
+}
+
+#signupForm input:focus {
+    border-color: #0066ff;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(0, 102, 255, 0.1);
+}
+
+#signupForm input::placeholder {
+    color: #a0aec0;
+    text-transform: capitalize;
+}
+
+/* Submit button */
+#signupForm button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0066ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#signupForm button:hover {
+    background-color: #0052cc;
+}
+
+#signupForm button:active {
+    transform: scale(0.98);
+}
+
+/* Feedback message area */
+#message {
+    margin-top: 16px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    min-height: 20px; /* Reserves space so layout doesn't shift */
+}
+
+/* Utility classes to target with your JavaScript module */
+#message.error {
+    color: #e53e3e;
+}
+
+#message.success {
+    color: #38a169;
+}

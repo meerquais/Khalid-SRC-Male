@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Feed</title>
+
+    <link rel="stylesheet" href="feed.css">
+
+</head>
+
+<body>
+
+    <h1 id="welcomeMessage"></h1>
+
+    <p id="userInfo"></p>
+
+
+    <a href="profile.html">
+        My Profile
+    </a>
+
+
+    <hr>
+
+
+    <!-- CREATE POST -->
+
+    <section>
+
+        <h2>Create Post</h2>
+
+
+        <form id="postForm">
+
+            <input
+                type="text"
+                id="postTitle"
+                placeholder="Post title"
+                required
+            >
+
+
+            <textarea
+                id="postDescription"
+                placeholder="What's on your mind?"
+                required
+            ></textarea>
+
+
+            <button type="submit">
+                Create Post
+            </button>
+
+        </form>
+
+
+        <p id="postMessage"></p>
+
+    </section>
+
+
+    <hr>
+
+
+    <button id="logoutBtn">
+        Logout
+    </button>
+
+
+    <script
+        type="module"
+        src="feed.js">
+    </script>
+
+</body>
+
+</html>
